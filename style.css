@@ -1,0 +1,4195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url(./font/NunitoSans_7pt_Condensed-Medium.ttf) format(truetype);
+}
+.container {
+  max-width: 100%;
+}
+.container .header-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #010101;
+  height: 52px;
+}
+.container .header-top button {
+  width: 96px;
+  height: 26px;
+  color: rgba(204, 204, 204, 0.9254901961);
+  background-color: #2C2C2C;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+.container .header-top .h-top-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transform: translateX(-400px);
+}
+.container .header-top .h-top-2 {
+  transform: translateX(380px);
+}
+.container .header-top h6 {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #4F8FF0;
+  color: #707070;
+}
+.container .header-top h5 {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+.container .background {
+  width: auto;
+  max-width: 100%;
+  height: 600px;
+  background-image: url(./img/fon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .background header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 112px;
+  background: rgba(1, 1, 1, 0.7607843137);
+}
+.container .background header .header-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container .background header .header-menu p {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #FFFFFF;
+}
+.container .background header .header-menu p:hover {
+  color: #4F8FF0;
+  text-decoration: underline;
+  transition: all 0.3s ease-in;
+}
+.container .background .card-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transform: translateY(80px);
+}
+.container .background .card-1 .card-1-text-block {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+.container .background .card-1 .card-1-text-block h2 {
+  font-family: "Nunito Sans";
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 45px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.container .background .card-1 .card-1-text-block h1 {
+  font-family: "Nunito Sans";
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 84px;
+  text-align: center;
+  color: #4F8FF0;
+}
+.container .background .card-1 .card-1-text-block p {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.container .background button {
+  width: auto;
+  max-width: 100%;
+  height: 49px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border: 2px;
+  background-color: #4F8FF0;
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #FFFFFF;
+  margin-top: 50px;
+  margin-left: 450px;
+}
+.container .background button:hover {
+  color: #4F8FF0;
+  background-color: #FFFFFF;
+  transition: all 0.3s ease-in;
+}
+.container .card-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F7F7F7;
+}
+.container .card-2 .card-2-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.container .card-2 .card-2-text-block h2 {
+  font-family: "Nunito Sans";
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 42px;
+  text-align: center;
+  color: #222222;
+  -webkit-text-decoration: underline #4F8FF0;
+          text-decoration: underline #4F8FF0;
+}
+.container .card-2 .card-2-text-block p {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #222222;
+}
+.container .card-2 .card-2-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.container .card-2 .card-2-box .card-2-mini-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 424px;
+  height: 250px;
+  padding: 50px 32px 50px 32px;
+  background-color: rgba(237, 237, 237, 0.9215686275);
+  gap: 15px;
+}
+.container .card-2 .card-2-box .card-2-mini-box h4 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  color: #222222;
+}
+.container .card-2 .card-2-box .card-2-mini-box p {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #222222;
+}
+.container .card-2 .card-2-box .card-2-mini-box:hover {
+  background-color: #4F8FF0;
+  color: #FFFFFF;
+  box-shadow: #010101 3px 4px 5px;
+  transition: all 0.3s ease-in;
+}
+.container .card-2 .card-2-box .card-2-mini-box:hover h4 {
+  color: #FFFFFF;
+}
+.container .card-2 .card-2-box .card-2-mini-box:hover p {
+  color: #FFFFFF;
+}
+.container .card-2 button {
+  width: 138px;
+  height: 49px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border: 2px;
+  background-color: #4F8FF0;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #FFFFFF;
+  margin: 40px;
+}
+.container .card-2 button:hover {
+  color: #4F8FF0;
+  background-color: #FFFFFF;
+  transition: all 0.3s ease-in;
+}
+.container .card-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.container .card-3 .card-3-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .card-3 .card-3-text-block p {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #222222;
+}
+.container .card-3 .card-3-text-block .card-3-btn {
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+}
+.container .card-3 .card-3-text-block .card-3-btn button {
+  width: 210px;
+  height: 49px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border: 2px;
+  background: #4F8FF0;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+.container .card-3 .card-3-text-block .card-3-btn button:hover {
+  color: #4F8FF0;
+  background-color: #F7F7F7;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+}
+.container .card-3 .card-3-text-block .card-3-btn h3 {
+  width: 161px;
+  height: 49px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border: 2px;
+  background: #E6E6E6;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #222222;
+  text-align: center;
+}
+.container .card-3 .card-3-text-block .card-3-btn h3:hover {
+  background-color: #222222;
+  color: #E6E6E6;
+  transition: all 0.3s ease-in;
+}
+.container .card-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F7F7F7;
+}
+.container .card-4 .card-4-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.container .card-4 .card-4-text-block h2 {
+  font-family: "Nunito Sans";
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 42px;
+  text-align: center;
+  color: #222222;
+  -webkit-text-decoration: underline #4F8FF0;
+          text-decoration: underline #4F8FF0;
+}
+.container .card-4 .card-4-text-block p {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #222222;
+}
+.container .card-4 .card-4-img-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.container .card-4 .card-4-img-block .card-4-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 312px;
+  height: 414px;
+  padding: 0px 0px 24px 0px;
+  gap: 24px;
+  box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.1215686275);
+  background: #FFFFFF;
+}
+.container .card-4 .card-4-img-block .card-4-box h2 {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+  color: #222222;
+}
+.container .card-4 .card-4-img-block .card-4-box h5 {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  text-align: center;
+  color: #222222;
+}
+.container .card-4 .card-4-img-block .card-4-box p {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  text-align: center;
+  color: #000000;
+}
+.container .card-4 .card-4-img-block .card-4-box h6 {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: center;
+  color: #222222;
+}
+.container .card-4 .card-4-img-block .card-4-mini {
+  display: none;
+}
+.container .card-4 .card-4-img-block .card-4-box:hover .card-4-mini {
+  display: block;
+  transition: all 0.5s ease-in;
+  gap: 10px;
+}
+.container .card-4 .card-4-img-block .card-4-box:hover img {
+  display: none;
+  transition: all 0.5s ease-in;
+}
+.container .card-5 {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: auto;
+  max-width: 100%;
+  height: 450px;
+  background-image: url(./img/foner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .card-5 .card-5-text-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  gap: 880px;
+}
+.container .card-5 .card-5-text-block h2 {
+  font-family: "Nunito Sans";
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 42px;
+  text-align: center;
+  color: #222222;
+  -webkit-text-decoration: underline #4F8FF0;
+          text-decoration: underline #4F8FF0;
+}
+.container .card-5 .card-5-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .card-5 .card-5-block h6 {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  color: #222222;
+}
+.container .card-5 .card-5-block h5 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #222222;
+}
+.container .card-5 .card-5-block p {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #222222;
+}
+.container .card-5 .card-5-block .card-5-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 648px;
+  height: 244px;
+  padding: 32px;
+  gap: 10px;
+  box-shadow: 2px 2px 10px 0px rgba(33, 33, 33, 0.1490196078);
+  background: #FFFFFF;
+}
+.container .card-5 .card-5-block .card-5-box .card-5-top {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  transform: translateX(-150px);
+}
+.container .card-5 .card-5-btn {
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+.container .card-5 .card-5-btn button {
+  width: 210px;
+  height: 49px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border: 2px;
+  background: #4F8FF0;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+.container .card-5 .card-5-btn button:hover {
+  color: #4F8FF0;
+  background-color: #F7F7F7;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+}
+.container .card-5 .card-5-btn h3 {
+  width: 161px;
+  height: 49px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border: 2px;
+  background: #E6E6E6;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #222222;
+  text-align: center;
+}
+.container .card-5 .card-5-btn h3:hover {
+  background-color: #222222;
+  color: #E6E6E6;
+  transition: all 0.3s ease-in;
+}
+.container .card-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .card-6 .card-6-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.container .card-6 .card-6-text-block h2 {
+  font-family: "Nunito Sans";
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 42px;
+  text-align: center;
+  color: #222222;
+  -webkit-text-decoration: underline #4F8FF0;
+          text-decoration: underline #4F8FF0;
+}
+.container .card-6 .card-6-text-block p {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #222222;
+}
+.container .card-6 .card-6-img-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.container .card-6 .card-6-img-block .card-6-box {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .card-6 .card-6-img-block .card-6-box h2 {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  color: #222222;
+}
+.container .card-6 .card-6-img-block .card-6-box h5 {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  color: #222222;
+}
+.container .card-6 .card-6-img-block .card-6-box p {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  color: #000000;
+}
+.container .card-6 .card-6-img-block .card-6-box:hover {
+  background: rgba(136, 136, 136, 0.553);
+  border-color: #010101;
+  width: 400px;
+  height: 450px;
+  transition: all 0.6s ease-in;
+}
+.container .card-6 .card-6-img-block .card-6-box:hover h2 {
+  color: #4F8FF0;
+  text-decoration: underline;
+  transition: all 0.6s ease-in;
+}
+.container .card-6 .card-6-img-block .card-6-box:hover p {
+  color: #444444;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+  transition: all 0.6s ease-in;
+}
+.container .card-6 .card-6-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.container .card-6 .card-6-btn button {
+  width: 180px;
+  height: 49px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border: 2px;
+  background: #4F8FF0;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.container .card-6 .card-6-btn button:hover {
+  color: #4F8FF0;
+  background-color: #F7F7F7;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+}
+.container .background-footer {
+  background-color: #222222;
+  margin-top: 100px;
+}
+.container .background-footer .footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #8C8C8C;
+  padding: 40px 10px;
+}
+.container .background-footer .footer-top p {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #F8F5F4;
+}
+.container .background-footer footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.container .background-footer footer .footer-inf {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  transform: translateY(-60px);
+}
+.container .background-footer footer .footer-inf .footer-menu-top {
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+}
+.container .background-footer footer .footer-inf .footer-menu-top i {
+  text-align: center;
+  padding-top: 13px;
+  width: 40px;
+  height: 40px;
+  background: #2C2C2C;
+}
+.container .background-footer footer .footer-inf .footer-menu-top h6 {
+  font-family: "Nunito Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.4px;
+  color: #8C8C8C;
+}
+.container .background-footer footer .footer-inf .footer-menu-top h5 {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.container .background-footer footer .footer-menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  transform: translateY(-60px);
+}
+.container .background-footer footer .footer-menu h4 {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  color: #fff;
+}
+.container .background-footer footer .footer-menu h4:hover {
+  color: #4F8FF0;
+  text-decoration: underline;
+  transition: all 0.3s ease-in;
+}
+.container .background-footer footer .footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.container .background-footer footer .footer-contact h6 {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  color: #fff;
+}
+.container .background-footer footer .footer-contact h5 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #fff;
+}
+.container .background-footer footer .footer-contact p {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #fff;
+}
+.container .background-footer footer .footer-contact .footer-menu-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-70px);
+  gap: 30px;
+}
+.container .background-footer footer .footer-contact button {
+  width: 210px;
+  height: 49px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border: 2px;
+  background: #4F8FF0;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #FFFFFF;
+  transform: translateX(-85px);
+}
+.container .background-footer footer .footer-contact button:hover {
+  color: #4F8FF0;
+  background-color: #F7F7F7;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+}
+.container .footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 600px;
+  height: 49px;
+  background: #181818;
+}
+.container .footer-bottom h6 {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: white;
+}
+@media (max-width: 447px) {
+  .container .header-top {
+    display: none;
+  }
+  .container .background {
+    max-width: 100%;
+    width: auto;
+    height: 600px;
+    background-image: url(./img/fon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container .background header {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    height: 112px;
+    background: rgba(1, 1, 1, 0.7607843137);
+  }
+  .container .background header img {
+    max-width: 100%;
+    width: auto;
+  }
+  .container .background header .header-menu {
+    display: none;
+  }
+  .container .background .card-1 {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+    gap: 20px;
+  }
+  .container .background .card-1 .card-1-text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .container .background .card-1 .card-1-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .container .background .card-1 .card-1-text-block h1 {
+    font-family: "Nunito Sans";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 84px;
+    text-align: center;
+    color: #4F8FF0;
+  }
+  .container .background .card-1 .card-1-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .container .background .card-1 .card-1-text-block button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    gap: 10px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    padding-top: 10px;
+    transform: translateX(-220px);
+  }
+  .container .background .card-1 .card-1-text-block button:hover {
+    color: #4F8FF0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-2 .card-2-text-block {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-2 .card-2-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-2 .card-2-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    height: 200px;
+    background-color: #FFFFFF;
+    gap: 15px;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box h4 {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover {
+    background-color: #4F8FF0;
+    color: #FFFFFF;
+    box-shadow: #010101 3px 4px 5px;
+    transition: all 0.3 ease-in;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover h4 {
+    color: #FFFFFF;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover p {
+    color: #FFFFFF;
+  }
+  .container .card-2 button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin: 40px;
+  }
+  .container .card-2 button:hover {
+    color: #4F8FF0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-3 {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-3 img {
+    display: none;
+  }
+  .container .card-3 .card-3-text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+  .container .card-3 .card-3-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #222222;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    padding: 5px;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn h3 {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #E6E6E6;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #222222;
+    text-align: center;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn h3:hover {
+    background-color: #222222;
+    color: #E6E6E6;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-4 .card-4-text-block {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-4 .card-4-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-4 .card-4-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .container .card-4 .card-4-img-block .card-4-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 100%;
+    height: 414px;
+    padding: 0px 0px 24px 0px;
+    gap: 20px;
+    box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.1215686275);
+    background: #FFFFFF;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h2 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block .card-4-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #000000;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h6 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-mini {
+    display: none;
+  }
+  .container .card-4 .card-4-box:hover .card-4-mini {
+    display: block;
+    transition: all 0.5s ease-in;
+    gap: 10px;
+  }
+  .container .card-4 .card-4-box:hover img {
+    display: none;
+    transition: all 0.5s ease-in;
+  }
+  .container .card-5 {
+    display: none;
+  }
+  .container .card-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-6 .card-6-text-block {
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-6 .card-6-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-6 .card-6-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block {
+    display: inline;
+  }
+  .container .card-6 .card-6-img-block .card-6-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .card-6 .card-6-img-block .card-6-box img {
+    max-width: 100%;
+    width: auto;
+    height: 250px;
+  }
+  .container .card-6 .card-6-img-block .card-6-box h2 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block .card-6-box h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block .card-6-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #000000;
+    text-align: center;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover {
+    background: rgba(136, 136, 136, 0.553);
+    border-color: #010101;
+    width: 400px;
+    height: 450px;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover h2 {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover p {
+    color: #444444;
+    -webkit-text-decoration: wavy;
+            text-decoration: wavy;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .container .card-6 .card-6-btn button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .container .card-6 .card-6-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .background-footer {
+    max-width: 100%;
+    width: auto;
+    background-color: #222222;
+  }
+  .container .background-footer .footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #8C8C8C;
+  }
+  .container .background-footer .footer-top p {
+    display: none;
+  }
+  .container .background-footer footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .background-footer footer .footer-inf {
+    display: none;
+  }
+  .container .background-footer footer .footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+  }
+  .container .background-footer footer .footer-menu h4 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #fff;
+  }
+  .container .background-footer footer .footer-menu h4:hover {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.1 ease-in;
+  }
+  .container .background-footer footer .footer-contact {
+    display: none;
+  }
+  .container .footer-bottom {
+    display: none;
+  }
+}
+@media (min-width: 447.1px) and (max-width: 769px) {
+  .container .header-top {
+    display: none;
+  }
+  .container .background {
+    max-width: 100%;
+    width: auto;
+    height: 600px;
+    background-image: url(./img/fon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container .background header {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    height: 112px;
+    background: rgba(1, 1, 1, 0.7607843137);
+  }
+  .container .background header img {
+    max-width: 100%;
+    width: auto;
+  }
+  .container .background header .header-menu {
+    display: none;
+  }
+  .container .background .card-1 {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+    gap: 20px;
+  }
+  .container .background .card-1 .card-1-text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .container .background .card-1 .card-1-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .container .background .card-1 .card-1-text-block h1 {
+    font-family: "Nunito Sans";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 84px;
+    text-align: center;
+    color: #4F8FF0;
+  }
+  .container .background .card-1 .card-1-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .container .background .card-1 .card-1-text-block button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    gap: 10px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    padding-top: 10px;
+    transform: translateX(-220px);
+  }
+  .container .background .card-1 .card-1-text-block button:hover {
+    color: #4F8FF0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-2 .card-2-text-block {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-2 .card-2-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-2 .card-2-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    height: 200px;
+    background-color: #FFFFFF;
+    gap: 15px;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box h4 {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover {
+    background-color: #4F8FF0;
+    color: #FFFFFF;
+    box-shadow: #010101 3px 4px 5px;
+    transition: all 0.3 ease-in;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover h4 {
+    color: #FFFFFF;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover p {
+    color: #FFFFFF;
+  }
+  .container .card-2 button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin: 40px;
+  }
+  .container .card-2 button:hover {
+    color: #4F8FF0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-3 {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-3 img {
+    display: none;
+  }
+  .container .card-3 .card-3-text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+  .container .card-3 .card-3-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #222222;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    padding: 5px;
+    margin-bottom: 50px;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn h3 {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #E6E6E6;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn h3:hover {
+    background-color: #222222;
+    color: #E6E6E6;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-4 .card-4-text-block {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-4 .card-4-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-4 .card-4-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .container .card-4 .card-4-img-block .card-4-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 100%;
+    height: 414px;
+    padding: 0px 0px 24px 0px;
+    gap: 30px;
+    box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.1215686275);
+    background: #FFFFFF;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h2 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h5 {
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block .card-4-box p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 16.8px;
+    text-align: center;
+    color: #000000;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h6 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-mini {
+    display: none;
+  }
+  .container .card-4 .card-4-box:hover .card-4-mini {
+    display: block;
+    transition: all 0.5s ease-in;
+    gap: 10px;
+  }
+  .container .card-4 .card-4-box:hover img {
+    display: none;
+    transition: all 0.5s ease-in;
+  }
+  .container .card-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 100%;
+    height: 450px;
+    background-image: url(./img/foner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+  }
+  .container .card-5 .card-5-text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+  }
+  .container .card-5 .card-5-text-block img {
+    display: none;
+  }
+  .container .card-5 .card-5-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-5 .card-5-block {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container .card-5 .card-5-block h6 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block h5 {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block .card-5-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 100%;
+    height: 244px;
+    padding: 32px;
+    gap: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(33, 33, 33, 0.1490196078);
+    background: #FFFFFF;
+  }
+  .container .card-5 .card-5-block .card-5-box .card-5-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transform: translateX(1px);
+  }
+  .container .card-5 .card-5-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+  }
+  .container .card-5 .card-5-btn button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .container .card-5 .card-5-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-5 .card-5-btn h3 {
+    width: auto;
+    max-width: 100%;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #E6E6E6;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #222222;
+    text-align: center;
+  }
+  .container .card-5 .card-5-btn h3:hover {
+    background-color: #222222;
+    color: #E6E6E6;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-6 .card-6-text-block {
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-6 .card-6-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-6 .card-6-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block {
+    display: inline;
+  }
+  .container .card-6 .card-6-img-block .card-6-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .card-6 .card-6-img-block .card-6-box img {
+    max-width: 100%;
+    width: auto;
+    height: 250px;
+  }
+  .container .card-6 .card-6-img-block .card-6-box h2 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block .card-6-box h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block .card-6-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover {
+    background: rgba(136, 136, 136, 0.553);
+    border-color: #010101;
+    width: 400px;
+    height: 450px;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover h2 {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover p {
+    color: #444444;
+    -webkit-text-decoration: wavy;
+            text-decoration: wavy;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .container .card-6 .card-6-btn button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .container .card-6 .card-6-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .background-footer {
+    max-width: 100%;
+    width: auto;
+    background-color: #222222;
+  }
+  .container .background-footer .footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    gap: 10px;
+    border-bottom: 2px solid #8C8C8C;
+  }
+  .container .background-footer .footer-top p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #F8F5F4;
+  }
+  .container .background-footer footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .background-footer footer .footer-inf {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    transform: translateY(-60px);
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top i {
+    display: none;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top h6 {
+    font-family: "Nunito Sans";
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14.4px;
+    color: #8C8C8C;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top h5 {
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .container .background-footer footer .footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+  }
+  .container .background-footer footer .footer-menu h4 {
+    font-family: "Nunito Sans";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #fff;
+  }
+  .container .background-footer footer .footer-menu h4:hover {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.1 ease-in;
+  }
+  .container .background-footer footer .footer-contact {
+    display: none;
+  }
+  .container .footer-bottom {
+    display: none;
+  }
+}
+@media (min-width: 769.1px) and (max-width: 990px) {
+  .container .header-top {
+    display: none;
+  }
+  .container .background {
+    max-width: 100%;
+    width: auto;
+    height: 600px;
+    background-image: url(./img/fon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container .background header {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    height: 112px;
+    background: rgba(1, 1, 1, 0.7607843137);
+  }
+  .container .background header img {
+    max-width: 100%;
+    width: auto;
+  }
+  .container .background header .header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .container .background header .header-menu p {
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #FFFFFF;
+  }
+  .container .background header .header-menu p:hover {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.2 ease-in;
+  }
+  .container .background .card-1 {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+    gap: 20px;
+  }
+  .container .background .card-1 .card-1-text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .container .background .card-1 .card-1-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .container .background .card-1 .card-1-text-block h1 {
+    font-family: "Nunito Sans";
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 84px;
+    text-align: center;
+    color: #4F8FF0;
+  }
+  .container .background .card-1 .card-1-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .container .background .card-1 .card-1-text-block button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    gap: 10px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    padding-top: 10px;
+    transform: translateX(-220px);
+  }
+  .container .background .card-1 .card-1-text-block button:hover {
+    color: #4F8FF0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-2 .card-2-text-block {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-2 .card-2-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-2 .card-2-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    height: 250px;
+    background-color: #FFFFFF;
+    gap: 15px;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box h4 {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover {
+    background-color: #4F8FF0;
+    color: #FFFFFF;
+    box-shadow: #010101 3px 4px 5px;
+    transition: all 0.3 ease-in;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover h4 {
+    color: #FFFFFF;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover p {
+    color: #FFFFFF;
+  }
+  .container .card-2 button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin: 40px;
+  }
+  .container .card-2 button:hover {
+    color: #4F8FF0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-3 {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-3 img {
+    display: none;
+  }
+  .container .card-3 .card-3-text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+  }
+  .container .card-3 .card-3-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #222222;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    padding: 5px;
+    margin-bottom: 50px;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn h3 {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #E6E6E6;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn h3:hover {
+    background-color: #222222;
+    color: #E6E6E6;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-4 .card-4-text-block {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-4 .card-4-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-4 .card-4-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .container .card-4 .card-4-img-block .card-4-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 100%;
+    height: 414px;
+    padding: 0px 0px 24px 0px;
+    box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.1215686275);
+    background: #FFFFFF;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h2 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h5 {
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block .card-4-box p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 16.8px;
+    text-align: center;
+    color: #000000;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h6 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-mini {
+    display: none;
+  }
+  .container .card-4 .card-4-box:hover .card-4-mini {
+    display: block;
+    transition: all 0.5s ease-in;
+    gap: 10px;
+  }
+  .container .card-4 .card-4-box:hover img {
+    display: none;
+    transition: all 0.5s ease-in;
+  }
+  .container .card-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 100%;
+    height: 450px;
+    background-image: url(./img/foner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+  }
+  .container .card-5 .card-5-text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+  }
+  .container .card-5 .card-5-text-block img {
+    display: none;
+  }
+  .container .card-5 .card-5-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-5 .card-5-block {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container .card-5 .card-5-block h6 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block h5 {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block .card-5-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 100%;
+    height: 244px;
+    padding: 32px;
+    gap: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(33, 33, 33, 0.1490196078);
+    background: #FFFFFF;
+  }
+  .container .card-5 .card-5-block .card-5-box .card-5-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transform: translateX(1px);
+  }
+  .container .card-5 .card-5-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+  }
+  .container .card-5 .card-5-btn button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .container .card-5 .card-5-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-5 .card-5-btn h3 {
+    width: auto;
+    max-width: 100%;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #E6E6E6;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #222222;
+    text-align: center;
+  }
+  .container .card-5 .card-5-btn h3:hover {
+    background-color: #222222;
+    color: #E6E6E6;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-6 .card-6-text-block {
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-6 .card-6-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-6 .card-6-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block {
+    display: inline;
+  }
+  .container .card-6 .card-6-img-block .card-6-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .card-6 .card-6-img-block .card-6-box img {
+    max-width: 100%;
+    width: auto;
+    height: 250px;
+  }
+  .container .card-6 .card-6-img-block .card-6-box h2 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block .card-6-box h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block .card-6-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover {
+    background: rgba(136, 136, 136, 0.553);
+    border-color: #010101;
+    width: 400px;
+    height: 450px;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover h2 {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover p {
+    color: #444444;
+    -webkit-text-decoration: wavy;
+            text-decoration: wavy;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .container .card-6 .card-6-btn button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .container .card-6 .card-6-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .background-footer {
+    max-width: 100%;
+    width: auto;
+    background-color: #222222;
+  }
+  .container .background-footer .footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    gap: 10px;
+    border-bottom: 2px solid #8C8C8C;
+  }
+  .container .background-footer .footer-top p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #F8F5F4;
+  }
+  .container .background-footer footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .background-footer footer .footer-inf {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    transform: translateY(-60px);
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top i {
+    text-align: center;
+    padding-top: 13px;
+    width: 40px;
+    height: 40px;
+    background: #2C2C2C;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top h6 {
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.4px;
+    color: #8C8C8C;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .container .background-footer footer .footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+  }
+  .container .background-footer footer .footer-menu h4 {
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #fff;
+  }
+  .container .background-footer footer .footer-menu h4:hover {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.1 ease-in;
+  }
+  .container .background-footer footer .footer-contact {
+    display: none;
+  }
+  .container .footer-bottom {
+    display: none;
+  }
+}
+@media (min-width: 990.1px) and (max-width: 1200px) {
+  .container .header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010101;
+    height: 52px;
+    gap: 500px;
+  }
+  .container .header-top h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .container .header-top .h-top-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform: translateX(1px);
+  }
+  .container .header-top h6 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #4F8FF0;
+  }
+  .container .header-top .h-top-2 {
+    transform: translateX(1px);
+  }
+  .container .background {
+    width: auto;
+    max-width: 100%;
+    height: 600px;
+    background-image: url(./img/fon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container .background header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 112px;
+    background: rgba(1, 1, 1, 0.7607843137);
+  }
+  .container .background header .header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .container .background header .header-menu p {
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #FFFFFF;
+  }
+  .container .background header .header-menu p:hover {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.2 ease-in;
+  }
+  .container .background .card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transform: translateY(80px);
+  }
+  .container .background .card-1 .card-1-text-block {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .background .card-1 .card-1-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .container .background .card-1 .card-1-text-block h1 {
+    font-family: "Nunito Sans";
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    text-align: center;
+    color: #4F8FF0;
+  }
+  .container .background .card-1 .card-1-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .container .background .card-1 .card-1-text-block button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 450px;
+  }
+  .container .background .card-1 .card-1-text-block button:hover {
+    color: #4F8FF0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F7F7F7;
+  }
+  .container .card-2 .card-2-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-2 .card-2-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-2 .card-2-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: auto;
+    max-width: 100%;
+    height: 250px;
+    padding: 50px 32px 50px 32px;
+    background-color: #FFFFFF;
+    gap: 15px;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box h4 {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover {
+    background-color: #4F8FF0;
+    color: #FFFFFF;
+    box-shadow: #010101 3px 4px 5px;
+    transition: all 0.3 ease-in;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover h4 {
+    color: #FFFFFF;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover p {
+    color: #FFFFFF;
+  }
+  .container .card-2 button {
+    width: 138px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin: 40px;
+  }
+  .container .card-2 button:hover {
+    color: #4F8FF0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .container .card-3 img {
+    max-width: auto;
+    width: 310px;
+  }
+  .container .card-3 .card-3-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container .card-3 .card-3-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #222222;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn button {
+    width: 210px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn h3 {
+    width: 161px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #E6E6E6;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #222222;
+    text-align: center;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn h3:hover {
+    background-color: #222222;
+    color: #E6E6E6;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F7F7F7;
+  }
+  .container .card-4 .card-4-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-4 .card-4-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-4 .card-4-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .container .card-4 .card-4-img-block .card-4-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    max-width: 100%;
+    height: 414px;
+    padding: 0px 0px 24px 0px;
+    gap: 14px;
+    box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.1215686275);
+    background: #FFFFFF;
+  }
+  .container .card-4 .card-4-img-block .card-4-box img {
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h2 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block .card-4-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #000000;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h6 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-mini {
+    display: none;
+  }
+  .container .card-4 .card-4-box:hover .card-4-mini {
+    display: block;
+    transition: all 0.5s ease-in;
+    gap: 10px;
+  }
+  .container .card-4 .card-4-box:hover img {
+    display: none;
+    transition: all 0.5s ease-in;
+  }
+  .container .card-5 {
+    display: flex;
+    justify-content: left;
+    width: auto;
+    max-width: 100%;
+    height: 470px;
+    background-image: url(./img/foner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container .card-5 .card-5-text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .container .card-5 .card-5-text-block img {
+    display: none;
+  }
+  .container .card-5 .card-5-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-5 .card-5-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .card-5 .card-5-block h6 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block h5 {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block .card-5-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    max-width: 100%;
+    height: 244px;
+    padding: 32px;
+    gap: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(33, 33, 33, 0.1490196078);
+    background: #FFFFFF;
+  }
+  .container .card-5 .card-5-block .card-5-box .card-5-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transform: translateX(1px);
+  }
+  .container .card-5 .card-5-btn {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 45px;
+  }
+  .container .card-5 .card-5-btn button {
+    width: 210px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .container .card-5 .card-5-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-5 .card-5-btn h3 {
+    width: 161px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #E6E6E6;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #222222;
+    text-align: center;
+  }
+  .container .card-5 .card-5-btn h3:hover {
+    background-color: #222222;
+    color: #E6E6E6;
+    transition: all 0.2 ease-in;
+  }
+  .container .card-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container .card-6 .card-6-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-6 .card-6-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-6 .card-6-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+  .container .card-6 .card-6-img-block .card-6-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: auto;
+    gap: 20px;
+  }
+  .container .card-6 .card-6-img-block .card-6-box img {
+    max-width: 100%;
+    width: auto;
+  }
+  .container .card-6 .card-6-img-block .card-6-box h2 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block .card-6-box h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block .card-6-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #000000;
+    text-align: center;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover {
+    background: rgba(136, 136, 136, 0.553);
+    border-color: #010101;
+    width: 400px;
+    height: 450px;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover h2 {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover p {
+    color: #444444;
+    -webkit-text-decoration: wavy;
+            text-decoration: wavy;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .container .card-6 .card-6-btn button {
+    width: 180px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .container .card-6 .card-6-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .background-footer {
+    background-color: #222222;
+    margin-top: 100px;
+  }
+  .container .background-footer .footer-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #8C8C8C;
+    padding: 40px 10px;
+  }
+  .container .background-footer .footer-top p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #F8F5F4;
+  }
+  .container .background-footer footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  }
+  .container .background-footer footer .footer-inf {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    transform: translateY(-60px);
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top i {
+    text-align: center;
+    padding-top: 13px;
+    width: 40px;
+    height: 40px;
+    background: #2C2C2C;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top h6 {
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.4px;
+    color: #8C8C8C;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top h5 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .container .background-footer footer .footer-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    transform: translateY(-60px);
+  }
+  .container .background-footer footer .footer-menu h4 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: #fff;
+  }
+  .container .background-footer footer .footer-menu h4:hover {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.1 ease-in;
+  }
+  .container .background-footer footer .footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+  }
+  .container .background-footer footer .footer-contact h6 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #fff;
+  }
+  .container .background-footer footer .footer-contact h5 {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+  }
+  .container .background-footer footer .footer-contact p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+  }
+  .container .background-footer footer .footer-contact .footer-menu-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-70px);
+    gap: 30px;
+  }
+  .container .background-footer footer .footer-contact button {
+    width: 210px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    transform: translateX(-85px);
+  }
+  .container .background-footer footer .footer-contact button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.2 ease-in;
+  }
+  .container .footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 600px;
+    height: 49px;
+    background: #181818;
+  }
+  .container .footer-bottom h6 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: white;
+  }
+}
+@media (min-width: 1200.1px) {
+  .container .header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010101;
+    height: 52px;
+  }
+  .container .header-top .h-top-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform: translateX(-400px);
+  }
+  .container .header-top .h-top-2 {
+    transform: translateX(380px);
+  }
+  .container .header-top h6 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #4F8FF0;
+  }
+  .container .header-top h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .container .background {
+    width: auto;
+    max-width: 100%;
+    height: 600px;
+    background-image: url(./img/fon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container .background header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 112px;
+    background: rgba(1, 1, 1, 0.7607843137);
+  }
+  .container .background header .header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .container .background header .header-menu p {
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #FFFFFF;
+  }
+  .container .background header .header-menu p:hover {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.3s ease-in;
+  }
+  .container .background .card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transform: translateY(80px);
+  }
+  .container .background .card-1 .card-1-text-block {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .background .card-1 .card-1-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .container .background .card-1 .card-1-text-block h1 {
+    font-family: "Nunito Sans";
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    text-align: center;
+    color: #4F8FF0;
+  }
+  .container .background .card-1 .card-1-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .container .background button {
+    width: auto;
+    max-width: 100%;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 450px;
+  }
+  .container .background button:hover {
+    color: #4F8FF0;
+    background-color: #FFFFFF;
+    transition: all 0.3s ease-in;
+  }
+  .container .card-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F7F7F7;
+  }
+  .container .card-2 .card-2-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-2 .card-2-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-2 .card-2-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 424px;
+    height: 250px;
+    padding: 50px 32px 50px 32px;
+    background-color: #FFFFFF;
+    gap: 15px;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box h4 {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover {
+    background-color: #4F8FF0;
+    color: #FFFFFF;
+    box-shadow: #010101 3px 4px 5px;
+    transition: all 0.3s ease-in;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover h4 {
+    color: #FFFFFF;
+  }
+  .container .card-2 .card-2-box .card-2-mini-box:hover p {
+    color: #FFFFFF;
+  }
+  .container .card-2 button {
+    width: 138px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin: 40px;
+  }
+  .container .card-2 button:hover {
+    color: #4F8FF0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+  }
+  .container .card-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .container .card-3 .card-3-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container .card-3 .card-3-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #222222;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn button {
+    width: 210px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn h3 {
+    width: 161px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #E6E6E6;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #222222;
+    text-align: center;
+  }
+  .container .card-3 .card-3-text-block .card-3-btn h3:hover {
+    background-color: #222222;
+    color: #E6E6E6;
+    transition: all 0.3s ease-in;
+  }
+  .container .card-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F7F7F7;
+  }
+  .container .card-4 .card-4-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-4 .card-4-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-4 .card-4-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .container .card-4 .card-4-img-block .card-4-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 312px;
+    height: 414px;
+    padding: 0px 0px 24px 0px;
+    gap: 24px;
+    box-shadow: 2px 2px 12px 0px rgba(33, 33, 33, 0.1215686275);
+    background: #FFFFFF;
+  }
+  .container .card-4 .card-4-img-block .card-4-box .card-4-mini {
+    display: none;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h2 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block .card-4-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #000000;
+  }
+  .container .card-4 .card-4-img-block .card-4-box h6 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-4 .card-4-img-block .card-4-box:hover .card-4-mini {
+    display: block;
+    transition: all 0.5s ease-in;
+    gap: 10px;
+  }
+  .container .card-4 .card-4-img-block .card-4-box:hover img {
+    display: none;
+    transition: all 0.5s ease-in;
+  }
+  .container .card-5 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: auto;
+    max-width: 100%;
+    height: 450px;
+    background-image: url(./img/foner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container .card-5 .card-5-text-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    gap: 880px;
+  }
+  .container .card-5 .card-5-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-5 .card-5-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container .card-5 .card-5-block h6 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block h5 {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #222222;
+  }
+  .container .card-5 .card-5-block .card-5-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 648px;
+    height: 244px;
+    padding: 32px;
+    gap: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(33, 33, 33, 0.1490196078);
+    background: #FFFFFF;
+  }
+  .container .card-5 .card-5-block .card-5-box .card-5-top {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    transform: translateX(-150px);
+  }
+  .container .card-5 .card-5-btn {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 45px;
+  }
+  .container .card-5 .card-5-btn button {
+    width: 210px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .container .card-5 .card-5-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+  }
+  .container .card-5 .card-5-btn h3 {
+    width: 161px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #E6E6E6;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #222222;
+    text-align: center;
+  }
+  .container .card-5 .card-5-btn h3:hover {
+    background-color: #222222;
+    color: #E6E6E6;
+    transition: all 0.3s ease-in;
+  }
+  .container .card-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container .card-6 .card-6-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .container .card-6 .card-6-text-block h2 {
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-decoration: underline #4F8FF0;
+            text-decoration: underline #4F8FF0;
+  }
+  .container .card-6 .card-6-text-block p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+  .container .card-6 .card-6-img-block .card-6-box {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container .card-6 .card-6-img-block .card-6-box h2 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block .card-6-box h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .container .card-6 .card-6-img-block .card-6-box p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #000000;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover {
+    background: rgba(136, 136, 136, 0.553);
+    border-color: #010101;
+    width: 400px;
+    height: 450px;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover h2 {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-img-block .card-6-box:hover p {
+    color: #444444;
+    -webkit-text-decoration: wavy;
+            text-decoration: wavy;
+    transition: all 0.6s ease-in;
+  }
+  .container .card-6 .card-6-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .container .card-6 .card-6-btn button {
+    width: 180px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .container .card-6 .card-6-btn button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+  }
+  .container .background-footer {
+    background-color: #222222;
+    margin-top: 100px;
+  }
+  .container .background-footer .footer-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #8C8C8C;
+    padding: 40px 10px;
+  }
+  .container .background-footer .footer-top p {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #F8F5F4;
+  }
+  .container .background-footer footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  }
+  .container .background-footer footer .footer-inf {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    transform: translateY(-60px);
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top i {
+    text-align: center;
+    padding-top: 13px;
+    width: 40px;
+    height: 40px;
+    background: #2C2C2C;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top h6 {
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.4px;
+    color: #8C8C8C;
+  }
+  .container .background-footer footer .footer-inf .footer-menu-top h5 {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .container .background-footer footer .footer-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    transform: translateY(-60px);
+  }
+  .container .background-footer footer .footer-menu h4 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: #fff;
+  }
+  .container .background-footer footer .footer-menu h4:hover {
+    color: #4F8FF0;
+    text-decoration: underline;
+    transition: all 0.3s ease-in;
+  }
+  .container .background-footer footer .footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+  }
+  .container .background-footer footer .footer-contact h6 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #fff;
+  }
+  .container .background-footer footer .footer-contact h5 {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+  }
+  .container .background-footer footer .footer-contact p {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+  }
+  .container .background-footer footer .footer-contact .footer-menu-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-70px);
+    gap: 30px;
+  }
+  .container .background-footer footer .footer-contact button {
+    width: 210px;
+    height: 49px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border: 2px;
+    background: #4F8FF0;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    transform: translateX(-85px);
+  }
+  .container .background-footer footer .footer-contact button:hover {
+    color: #4F8FF0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+  }
+  .container .footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 600px;
+    height: 49px;
+    background: #181818;
+  }
+  .container .footer-bottom h6 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: white;
+  }
+}/*# sourceMappingURL=style.css.map */
